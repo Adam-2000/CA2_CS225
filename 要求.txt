@@ -1,0 +1,13 @@
+2(i)
+Person, Role, Movie_Award(crew_award, director_award, writer_award, actor_award),  Appearance
+(ii)
+Movie, actor_award, award, person, staff(role, writer, director)
+(iii)
+Person, role, movie, restriction
+(iv)
+Movie, director, role
+
+4(i)
+Person, Appearance
+(ii)
+person, role, actor_award
